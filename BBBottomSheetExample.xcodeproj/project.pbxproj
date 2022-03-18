@@ -62,17 +62,25 @@
 		B312463327E4B49000A238E1 /* BBBottomSheetExample */ = {
 			isa = PBXGroup;
 			children = (
+				B3A101AB27E4BF280010DD5F /* ContentViewController */,
 				B312463427E4B49000A238E1 /* AppDelegate.swift */,
 				B312463627E4B49000A238E1 /* SceneDelegate.swift */,
 				B312463827E4B49000A238E1 /* ViewController.swift */,
 				B312463A27E4B49000A238E1 /* Main.storyboard */,
-				B3A101A127E4B7B50010DD5F /* ContentViewController.swift */,
-				B3A101A227E4B7B50010DD5F /* ContentViewController.xib */,
 				B312463D27E4B49200A238E1 /* Assets.xcassets */,
 				B312463F27E4B49200A238E1 /* LaunchScreen.storyboard */,
 				B312464227E4B49200A238E1 /* Info.plist */,
 			);
 			path = BBBottomSheetExample;
+			sourceTree = "<group>";
+		};
+		B3A101AB27E4BF280010DD5F /* ContentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B3A101A127E4B7B50010DD5F /* ContentViewController.swift */,
+				B3A101A227E4B7B50010DD5F /* ContentViewController.xib */,
+			);
+			path = ContentViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
