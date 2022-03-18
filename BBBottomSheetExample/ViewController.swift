@@ -6,14 +6,18 @@
 //
 
 import UIKit
+import BBBottomSheet
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.title = "Home"
+        
+        let contentViewController = ContentViewController()
+        let bottomSheet = BottomSheetViewController(contentViewController: contentViewController, bottomSheetHeightMode: .dynamic)
+        bottomSheet.present(self)
     }
-
-
 }
 
