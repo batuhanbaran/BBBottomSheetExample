@@ -13,7 +13,7 @@
 		B312463C27E4B49000A238E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B312463A27E4B49000A238E1 /* Main.storyboard */; };
 		B312463E27E4B49200A238E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B312463D27E4B49200A238E1 /* Assets.xcassets */; };
 		B312464127E4B49200A238E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B312463F27E4B49200A238E1 /* LaunchScreen.storyboard */; };
-		B312464A27E4B65700A238E1 /* BBBottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = B312464927E4B65700A238E1 /* BBBottomSheet */; };
+		B39CECC12838433D006A0502 /* BBBottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = B39CECC02838433D006A0502 /* BBBottomSheet */; };
 		B3A101A327E4B7B50010DD5F /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A101A127E4B7B50010DD5F /* ContentViewController.swift */; };
 		B3A101A427E4B7B50010DD5F /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3A101A227E4B7B50010DD5F /* ContentViewController.xib */; };
 /* End PBXBuildFile section */
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B312464A27E4B65700A238E1 /* BBBottomSheet in Frameworks */,
+				B39CECC12838433D006A0502 /* BBBottomSheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +48,7 @@
 			children = (
 				B312463327E4B49000A238E1 /* BBBottomSheetExample */,
 				B312463227E4B49000A238E1 /* Products */,
+				B39CECBC2837AF5A006A0502 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +73,13 @@
 				B312464227E4B49200A238E1 /* Info.plist */,
 			);
 			path = BBBottomSheetExample;
+			sourceTree = "<group>";
+		};
+		B39CECBC2837AF5A006A0502 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B3A101AB27E4BF280010DD5F /* ContentViewController */ = {
@@ -100,7 +108,7 @@
 			);
 			name = BBBottomSheetExample;
 			packageProductDependencies = (
-				B312464927E4B65700A238E1 /* BBBottomSheet */,
+				B39CECC02838433D006A0502 /* BBBottomSheet */,
 			);
 			productName = BBBottomSheetExample;
 			productReference = B312463127E4B49000A238E1 /* BBBottomSheetExample.app */;
@@ -131,7 +139,7 @@
 			);
 			mainGroup = B312462827E4B49000A238E1;
 			packageReferences = (
-				B312464827E4B65700A238E1 /* XCRemoteSwiftPackageReference "BBBottomSheet" */,
+				B39CECBF2838433D006A0502 /* XCRemoteSwiftPackageReference "BBBottomSheet" */,
 			);
 			productRefGroup = B312463227E4B49000A238E1 /* Products */;
 			projectDirPath = "";
@@ -386,20 +394,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B312464827E4B65700A238E1 /* XCRemoteSwiftPackageReference "BBBottomSheet" */ = {
+		B39CECBF2838433D006A0502 /* XCRemoteSwiftPackageReference "BBBottomSheet" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/batuhanbaran/BBBottomSheet";
 			requirement = {
-				kind = exactVersion;
-				version = 1.0.0;
+				branch = development;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B312464927E4B65700A238E1 /* BBBottomSheet */ = {
+		B39CECC02838433D006A0502 /* BBBottomSheet */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B312464827E4B65700A238E1 /* XCRemoteSwiftPackageReference "BBBottomSheet" */;
+			package = B39CECBF2838433D006A0502 /* XCRemoteSwiftPackageReference "BBBottomSheet" */;
 			productName = BBBottomSheet;
 		};
 /* End XCSwiftPackageProductDependency section */
