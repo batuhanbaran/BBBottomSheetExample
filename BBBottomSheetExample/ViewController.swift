@@ -10,14 +10,20 @@ import BBBottomSheet
 
 class ViewController: UIViewController {
 
+    var bottomSheet: BottomSheetViewController?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.title = "Home"
         
         let contentViewController = ContentViewController()
-        let bottomSheet = BottomSheetViewController(self, contentViewController: contentViewController, bottomSheetSize: .half)
-        bottomSheet.present(animated: true)
+        bottomSheet = BottomSheetViewController(self, contentViewController: contentViewController, bottomSheetSize: .half)
+        bottomSheet?.present(animated: true)
+    }
+    
+    @IBAction func openBottomSheet(_ sender: Any) {
+        bottomSheet?.present(animated: true)
     }
 }
 

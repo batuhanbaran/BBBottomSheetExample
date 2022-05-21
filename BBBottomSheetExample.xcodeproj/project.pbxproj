@@ -16,8 +16,6 @@
 		B39219C32838E7BE00AF4EF5 /* BBBottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = B39219C22838E7BE00AF4EF5 /* BBBottomSheet */; };
 		B3A101A327E4B7B50010DD5F /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A101A127E4B7B50010DD5F /* ContentViewController.swift */; };
 		B3A101A427E4B7B50010DD5F /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3A101A227E4B7B50010DD5F /* ContentViewController.xib */; };
-		B3A101A927E4BEB50010DD5F /* ExampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A101A727E4BEB50010DD5F /* ExampleCollectionViewCell.swift */; };
-		B3A101AA27E4BEB50010DD5F /* ExampleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3A101A827E4BEB50010DD5F /* ExampleCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +30,6 @@
 		B39219C02838E7B500AF4EF5 /* BBBottomSheet */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = BBBottomSheet; path = ../../Packages/BBBottomSheet; sourceTree = "<group>"; };
 		B3A101A127E4B7B50010DD5F /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		B3A101A227E4B7B50010DD5F /* ContentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
-		B3A101A727E4BEB50010DD5F /* ExampleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCollectionViewCell.swift; sourceTree = "<group>"; };
-		B3A101A827E4BEB50010DD5F /* ExampleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,20 +87,10 @@
 		B3A101A527E4BE830010DD5F /* ContentViewController */ = {
 			isa = PBXGroup;
 			children = (
-				B3A101A627E4BE900010DD5F /* Cell */,
 				B3A101A127E4B7B50010DD5F /* ContentViewController.swift */,
 				B3A101A227E4B7B50010DD5F /* ContentViewController.xib */,
 			);
 			path = ContentViewController;
-			sourceTree = "<group>";
-		};
-		B3A101A627E4BE900010DD5F /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				B3A101A727E4BEB50010DD5F /* ExampleCollectionViewCell.swift */,
-				B3A101A827E4BEB50010DD5F /* ExampleCollectionViewCell.xib */,
-			);
-			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,7 +158,6 @@
 			files = (
 				B3A101A427E4B7B50010DD5F /* ContentViewController.xib in Resources */,
 				B312464127E4B49200A238E1 /* LaunchScreen.storyboard in Resources */,
-				B3A101AA27E4BEB50010DD5F /* ExampleCollectionViewCell.xib in Resources */,
 				B312463E27E4B49200A238E1 /* Assets.xcassets in Resources */,
 				B312463C27E4B49000A238E1 /* Main.storyboard in Resources */,
 			);
@@ -187,7 +172,6 @@
 			files = (
 				B3A101A327E4B7B50010DD5F /* ContentViewController.swift in Sources */,
 				B312463927E4B49000A238E1 /* ViewController.swift in Sources */,
-				B3A101A927E4BEB50010DD5F /* ExampleCollectionViewCell.swift in Sources */,
 				B312463527E4B49000A238E1 /* AppDelegate.swift in Sources */,
 				B312463727E4B49000A238E1 /* SceneDelegate.swift in Sources */,
 			);
