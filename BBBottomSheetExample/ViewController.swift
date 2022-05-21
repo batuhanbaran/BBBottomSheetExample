@@ -16,8 +16,8 @@ class ViewController: UIViewController {
         self.title = "Home"
         
         let contentViewController = ContentViewController()
-        let bottomSheet = BottomSheetViewController(contentViewController: contentViewController, bottomSheetHeightMode: .dynamic)
-        bottomSheet.present(self)
+        let bottomSheet = BottomSheetViewController(self, contentViewController: contentViewController, bottomSheetSize: .half)
+        bottomSheet.present(animated: true)
     }
 }
 
