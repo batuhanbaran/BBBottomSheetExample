@@ -13,7 +13,7 @@
 		B312463C27E4B49000A238E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B312463A27E4B49000A238E1 /* Main.storyboard */; };
 		B312463E27E4B49200A238E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B312463D27E4B49200A238E1 /* Assets.xcassets */; };
 		B312464127E4B49200A238E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B312463F27E4B49200A238E1 /* LaunchScreen.storyboard */; };
-		B39CECC12838433D006A0502 /* BBBottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = B39CECC02838433D006A0502 /* BBBottomSheet */; };
+		B39219C62838F0C300AF4EF5 /* BBBottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = B39219C52838F0C300AF4EF5 /* BBBottomSheet */; };
 		B3A101A327E4B7B50010DD5F /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A101A127E4B7B50010DD5F /* ContentViewController.swift */; };
 		B3A101A427E4B7B50010DD5F /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3A101A227E4B7B50010DD5F /* ContentViewController.xib */; };
 /* End PBXBuildFile section */
@@ -27,6 +27,7 @@
 		B312463D27E4B49200A238E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B312464027E4B49200A238E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B312464227E4B49200A238E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B39219C42838F0BC00AF4EF5 /* BBBottomSheet */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = BBBottomSheet; path = ../Packages/BBBottomSheet; sourceTree = "<group>"; };
 		B3A101A127E4B7B50010DD5F /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		B3A101A227E4B7B50010DD5F /* ContentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -36,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B39CECC12838433D006A0502 /* BBBottomSheet in Frameworks */,
+				B39219C62838F0C300AF4EF5 /* BBBottomSheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +47,7 @@
 		B312462827E4B49000A238E1 = {
 			isa = PBXGroup;
 			children = (
+				B39219C42838F0BC00AF4EF5 /* BBBottomSheet */,
 				B312463327E4B49000A238E1 /* BBBottomSheetExample */,
 				B312463227E4B49000A238E1 /* Products */,
 				B39CECBC2837AF5A006A0502 /* Frameworks */,
@@ -108,7 +110,7 @@
 			);
 			name = BBBottomSheetExample;
 			packageProductDependencies = (
-				B39CECC02838433D006A0502 /* BBBottomSheet */,
+				B39219C52838F0C300AF4EF5 /* BBBottomSheet */,
 			);
 			productName = BBBottomSheetExample;
 			productReference = B312463127E4B49000A238E1 /* BBBottomSheetExample.app */;
@@ -139,7 +141,6 @@
 			);
 			mainGroup = B312462827E4B49000A238E1;
 			packageReferences = (
-				B39CECBF2838433D006A0502 /* XCRemoteSwiftPackageReference "BBBottomSheet" */,
 			);
 			productRefGroup = B312463227E4B49000A238E1 /* Products */;
 			projectDirPath = "";
@@ -393,21 +394,9 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		B39CECBF2838433D006A0502 /* XCRemoteSwiftPackageReference "BBBottomSheet" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/batuhanbaran/BBBottomSheet";
-			requirement = {
-				branch = development;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		B39CECC02838433D006A0502 /* BBBottomSheet */ = {
+		B39219C52838F0C300AF4EF5 /* BBBottomSheet */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B39CECBF2838433D006A0502 /* XCRemoteSwiftPackageReference "BBBottomSheet" */;
 			productName = BBBottomSheet;
 		};
 /* End XCSwiftPackageProductDependency section */

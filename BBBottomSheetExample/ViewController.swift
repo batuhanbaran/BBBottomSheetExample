@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         self.title = "Home"
         
         let contentViewController = ContentViewController()
-        bottomSheet = BottomSheetViewController(self, contentViewController: contentViewController, bottomSheetSize: .dynamic)
+        bottomSheet = BottomSheetViewController(self, contentViewController: contentViewController, bottomSheetSizes: [.full])
         bottomSheet?.isCloseWithTouchEnabled = true
         bottomSheet?.present(animated: true)
     }
